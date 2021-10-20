@@ -1,0 +1,369 @@
+body{
+    margin:0;
+    padding: 0px;
+    font-family: 'Press Start 2P', cursive; 
+    
+}
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+.logo2{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    
+    left: 350px;
+    top: 80px;
+    
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: url(../imaginiALT/111.png);
+    background-size: cover;
+    background-position: top left;
+    position: relative;
+} 
+.logo img{
+    width: 80%;
+    height: auto;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 30px;
+    background-color:#212121;
+    box-shadow: 2px 2px 20px rgba(90,118,253,0,13);
+    z-index: 1;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+nav ul li a{
+    height: 30px;
+    line-height: 43px;
+    margin: 8px;
+    padding: 0px 12px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    color:white;
+    letter-spacing: 1px;
+}
+nav ul li a:hover{
+    border-radius: 30px;
+    background-color: #800fff;
+    color:white;
+    transition: all ease 0.2s;
+}
+
+.home-content{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width:90%;
+}
+.sageata{
+    align-self: end;
+    width: 50%;
+    border-right: 1px solid #800fff ;
+    height: 20%;
+    margin-bottom: 4em;
+    position: absolute;
+    bottom: 5px;
+    right: 70px;
+    animation: sageata-animation ease 2s infinite;
+
+}
+.sageata::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 11px 11px 0px 11px;
+    border-color: #800fff transparent transparent transparent;
+    right: -0.7em;
+    bottom: -2px;
+
+}
+.scroll{
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    right: 20px;
+    font-weight: 600;
+}
+@keyframes sageata-animation {
+    
+    0%{
+        bottom: 70px;
+        opacity: 0.2;
+    }
+    50%{
+        bottom: 5px;
+        opacity: 1;
+
+    }
+    100%{
+        bottom: 70px;
+        opacity: 0;
+    }
+    
+
+    
+}
+.box-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:30px 30px;
+     
+}
+.box{
+   
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    box-shadow: 2px 2px 20 px rgba(90,118,253,0.15);
+    border-radius: 90px;
+    background-color: #800fff;
+    padding: ;
+    margin: 114px;
+    flex-grow: 1;
+    transition: 1s;
+}
+.box font{
+    
+    font-size: 1.5rem;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.box p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:1rem;
+    color: white;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-line-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 500px;
+
+}
+.box:hover{
+    transform:scale(1.2);
+
+}
+.divider{
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url(../imaginiALT/Captură2.PNG);
+}
+
+.fin p{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 30px  ;
+    background-color:#800fff;
+    z-index: 1;
+    width: 100%;    
+}
+.video1 {
+    float: left;
+    display: flex;
+
+    margin: 200px;
+    
+    
+
+    
+
+
+
+   
+    
+
+  }
+
+
+  .fin1 p{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 30px  ;
+    background-color:#800fff;
+    z-index: 1;
+    width: 100%;    
+}
+
+.backroung{
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url(../imaginiALT/Captură2.PNG);
+}
+
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+   .gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .back2{
+    width: 100%;
+    height: 100vh;
+    background-color:#800fff;
+    background-image: url(../imaginiALT/backvio.PNG);
+  }
+  
+  .fin2 p{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 30px  ;
+    background-color:#800fff;
+    z-index: 1;
+    width: 100%;    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container .box{
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background: #800fff;
+    box-shadow: 0 5px 15px rgba(0,0,0.1);
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+.container .box .icon{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    color: black;
+    background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1s;
+
+}
+.rh2 p{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 30px  ;
+    background-color:#800fff;
+    z-index: 1;
+    width: 100%;    
+}
+footer{
+
+    background-image: url(../imaginiALT/black.jpg);
+
+    
+
+}
+.final{
+    position:relative;
+
+
+   
+    
+    
+}
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+    
+
+  
+ 
+
+
+    
+  
+
+
+
+
+
+
+
